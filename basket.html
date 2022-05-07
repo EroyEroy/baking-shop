@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/basket.css">
+	<title>Корзина</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container flex-js-sb">
+				<!-- burger-menu -->
+				<div class="burger-menu">
+					<a href="#" class="burger-menu__button">
+						<span class="burger-menu__lines"></span>
+					</a>
+					<nav class="burger-menu__nav">
+					<a href="index.html" class="burger-menu__link">Главная</a>
+					<a href="menu.html" class="burger-menu__link">Меню</a>
+					<a href="contacts.html" class="burger-menu__link">Контакты</a>
+					</nav>
+					<div class="burger-menu__overlay"></div>
+					<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+				</div>
+				<!-- *********** -->
+				<img src="img/logo.png" alt="" class="header__logo">
+				<nav class="header__nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="menu.html">Меню</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__wrapper">
+					<input class="header__search" type="text" placeholder="Поиск">
+					<button class="header__search-btn"></button>
+					<a href="basket.html" class="header__basket"></a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="contacts">
+				<div class="container-two flex-js-c-two">
+					<img src="img/logo.png" alt="" width="80px" class="info__logo">
+					<h1 class="contacts__title">
+						Корзина
+					</h1>
+					<div class="basket__cards">
+						<div class="basket__card">
+							<div class="basket__info">
+								<img src="img/cake.png" alt="" class="basket__img">
+								<div class="basket__wrapper">
+									<h2 class="basket__subtitle">
+										"Бенто-торт"
+									</h2>
+									<p class="basket__description">
+										1 кг <br>
+										Крем-чиз <br>
+										Черника
+									</p>
+								</div>
+							</div>
+							<div class="basket__price">
+								<div class="basket__price-btn">
+									<button class="basket__minus">-</button>
+									<span class="basket__count">1</span>
+									<button class="basket__plus">+</button>
+								</div>
+								<span class="basket__price-text">
+									2000₽
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="basket__services">
+						<h2 class="basket__sevices-title">
+							Способ доставки
+						</h2>
+						<div class="basket__services-btn">
+							<button class="basket__pickup">Самовывоз</button>
+							<button class="basket__courier">Курьер</button>
+						</div>
+					</div>
+					<form action="#" class="basket-form">
+						<div class="basket-form__title">
+							Ваши данные
+						</div>
+						<div class="basket__wrapper">
+							<label for="">
+								Имя<span>*</span>
+								<input type="text" class="basket-form__name" required>
+							</label>
+							<label for="">
+								Фамилия<span>*</span>
+								<input type="text" class="basket-form__second" required>
+							</label>
+						</div>
+						<label for="">
+							Телефон<span>*</span>
+							<br><br>
+							<input type="tel" class="basket-form__tel" required>
+						</label>
+						<label for="">
+							Электронная почта<span>*</span>
+							<br><br>
+							<input type="email" class="basket-form__email" required>
+						</label>
+						<div class="basket-form-button__wrapper">
+							<button class="basket-form__button">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container flex-js-c" style="flex-direction: column;">
+				<div class="footer__messenger">
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/facebook.svg" alt="">
+					</a>
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/vk.svg" alt="">
+					</a>
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/instagram.svg" alt="">
+					</a>
+				</div>
+				<nav class="footer__nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="menu.html">Меню</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="js/header.js"></script>
+	<script src="js/burger-menu.js"></script>
+</body>
+</html>

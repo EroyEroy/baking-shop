@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/contacts.css">
+	<title>Контакты</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container flex-js-sb">
+				<!-- burger-menu -->
+				<div class="burger-menu">
+					<a href="#" class="burger-menu__button">
+						<span class="burger-menu__lines"></span>
+					</a>
+					<nav class="burger-menu__nav">
+					<a href="index.html" class="burger-menu__link">Главная</a>
+					<a href="menu.html" class="burger-menu__link">Меню</a>
+					<a href="contacts.html" class="burger-menu__link">Контакты</a>
+					</nav>
+					<div class="burger-menu__overlay"></div>
+					<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+				</div>
+				<!-- *********** -->
+				<img src="img/logo.png" alt="" class="header__logo">
+				<nav class="header__nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="menu.html">Меню</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__wrapper">
+					<input class="header__search" type="text" placeholder="Поиск">
+					<button class="header__search-btn"></button>
+					<a href="basket.html" class="header__basket"></a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="contacts">
+				<div class="container flex-js-c-two">
+					<img src="img/logo.png" alt="" width="80px" class="info__logo">
+					<h1 class="contacts__title">
+						Контакты
+					</h1>
+					<div class="contacts__info">
+						<div class="contacts__card">
+							<img src="img/clock.svg" alt="" class="contacts__img">
+							<div class="contacts__wrapper">
+								<h2 class="contacts__subtitle">
+									Режим работы
+								</h2>
+								<p class="contacts__description">
+									Работаем пн-пт с 10:00 до 21:00
+								</p>
+							</div>
+						</div>
+						<div class="contacts__card">
+							<img src="img/phone.svg" alt="" class="contacts__img">
+							<div class="contacts__wrapper">
+								<h2 class="contacts__subtitle">
+									Наш телефон 
+								</h2>
+								<p class="contacts__description">
+									+7-919-050-60-98
+								</p>
+							</div>
+						</div>
+						<div class="contacts__card">
+							<img src="img/envelope.svg" alt="" class="contacts__img">
+							<div class="contacts__wrapper">
+								<h2 class="contacts__subtitle">
+									Электронная почта
+								</h2>
+								<p class="contacts__description">
+									candylab@gmail.com
+								</p>
+							</div>
+						</div>
+						<div class="contacts__card">
+							<img src="img/location.svg" alt="" class="contacts__img">
+							<div class="contacts__wrapper">
+								<h2 class="contacts__subtitle">
+									Наш адрес
+								</h2>
+								<p class="contacts__description">
+									ул. Пушкина, дом Колотушкина
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container flex-js-c" style="flex-direction: column;">
+				<div class="footer__messenger">
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/facebook.svg" alt="">
+					</a>
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/vk.svg" alt="">
+					</a>
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/instagram.svg" alt="">
+					</a>
+				</div>
+				<nav class="footer__nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="menu.html">Меню</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="js/header.js"></script>
+	<script src="js/burger-menu.js"></script>
+</body>
+</html>

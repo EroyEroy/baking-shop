@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/menu.css">
+	<title>Меню</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container flex-js-sb">
+				<!-- burger-menu -->
+				<div class="burger-menu">
+					<a href="#" class="burger-menu__button">
+						<span class="burger-menu__lines"></span>
+					</a>
+					<nav class="burger-menu__nav">
+					<a href="index.html" class="burger-menu__link">Главная</a>
+					<a href="menu.html" class="burger-menu__link">Меню</a>
+					<a href="contacts.html" class="burger-menu__link">Контакты</a>
+					</nav>
+					<div class="burger-menu__overlay"></div>
+					<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+				</div>
+				<!-- *********** -->
+				<img src="img/logo.png" alt="" class="header__logo">
+				<nav class="header__nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="menu.html">Меню</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__wrapper">
+					<input class="header__search" type="text" placeholder="Поиск">
+					<button class="header__search-btn"></button>
+					<a href="basket.html" class="header__basket"></a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="contacts">
+				<div class="container-two flex-js-c-two">
+					<img src="img/logo.png" alt="" width="80px" class="info__logo">
+					<h1 class="contacts__title">
+						Меню
+					</h1>
+					<nav class="menu__nav">
+						<ul>
+							<li><a class="button__cake" href="#">Торты</a></li>
+							<li><a class="button__cupcake" href="#">Капкейки</a></li>
+							<li><a class="button__eclairs" href="#">Эклеры</a></li>
+							<li><a class="button__cookies" href="#">Печенье</a></li>
+						</ul>
+					</nav>
+					<!-- cake -->
+					<!-- попап окно -->
+					<div class="popup__background">
+						<div class="popup">
+							<div class="popup__wrapper">
+								<img src="img/card_img.png" alt="" class="popup__img">
+								<div class="popup__info">
+									<h1 class="popup__title">
+										"Бенто-торт"
+										<br>
+										<span>1шт/1кг</span>
+									</h1>
+									<nav class="popup__nav">
+										<ul>
+											<li><a class="button__structure" href="#">Состав</a></li>
+											<li><a class="button__nutritional" href="#">Пищевая ценность</a></li>
+										</ul>
+									</nav>
+									<div class="popup__desctiption">
+										<ul class="structure active">
+											<li>Яйцо куриное: 60 г</li>
+											<li>Йогурт греческий 1,9% жирности, натуральный: 60 г</li>
+											<li>Мука из Зеленой Гречки [Гарнец]: 25 г</li>
+											<li>Какао-порошок: 8 г</li>
+											<li>Разрыхлитель пищевой, пекарный порошок (заменяющий дрожжи), с низким содерж. натрия: 3 г</li>
+											<li>Черника: 100 г</li>
+											<li>Сыр Рикотта [Pretto]: 200 г</li>
+											<li>Кокосовое масло (жидкое): 10 г</li>
+										</ul>
+										<ul class="nutritional">
+											<li>Белки: 5.9г</li>
+											<li>Жиры: 8.7г</li>
+											<li>Углеводы: 21.1г</li>
+											<li>Энерг. ценность: 190ккал.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="popup__price">
+								<button class="popup__btn">2000₽
+									<img src="img/basket_popup.svg" alt="">
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- cupcake popup -->
+					<div class="cupcake__background">
+						<div class="popup">
+							<div class="popup__wrapper">
+								<img src="img/card_img.png" alt="" class="popup__img">
+								<div class="popup__info">
+									<h1 class="popup__title">
+										"Капкейк"
+										<br>
+										<span>1шт/1кг</span>
+									</h1>
+									<nav class="popup__nav">
+										<ul>
+											<li><a class="button__structure-two" href="#">Состав</a></li>
+											<li><a class="button__nutritional-two" href="#">Пищевая ценность</a></li>
+										</ul>
+									</nav>
+									<div class="popup__desctiption">
+										<ul class="structure-two active">
+											<li>Яйцо куриное: 60 г</li>
+											<li>Йогурт греческий 1,9% жирности, натуральный: 60 г</li>
+											<li>Мука из Зеленой Гречки [Гарнец]: 25 г</li>
+											<li>Какао-порошок: 8 г</li>
+											<li>Разрыхлитель пищевой, пекарный порошок (заменяющий дрожжи), с низким содерж. натрия: 3 г</li>
+											<li>Черника: 100 г</li>
+											<li>Сыр Рикотта [Pretto]: 200 г</li>
+											<li>Кокосовое масло (жидкое): 10 г</li>
+										</ul>
+										<ul class="nutritional-two">
+											<li>Белки: 5.9г</li>
+											<li>Жиры: 8.7г</li>
+											<li>Углеводы: 21.1г</li>
+											<li>Энерг. ценность: 190ккал.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="popup__price">
+								<button class="popup__btn">1500₽
+									<img src="img/basket_popup.svg" alt="">
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- eclairs popup -->
+					<div class="eclairs__background">
+						<div class="popup">
+							<div class="popup__wrapper">
+								<img src="img/card_img.png" alt="" class="popup__img">
+								<div class="popup__info">
+									<h1 class="popup__title">
+										"Эклер"
+										<br>
+										<span>1шт/1кг</span>
+									</h1>
+									<nav class="popup__nav">
+										<ul>
+											<li><a class="button__structure-three" href="#">Состав</a></li>
+											<li><a class="button__nutritional-three" href="#">Пищевая ценность</a></li>
+										</ul>
+									</nav>
+									<div class="popup__desctiption">
+										<ul class="structure-three active">
+											<li>Яйцо куриное: 60 г</li>
+											<li>Йогурт греческий 1,9% жирности, натуральный: 60 г</li>
+											<li>Мука из Зеленой Гречки [Гарнец]: 25 г</li>
+											<li>Какао-порошок: 8 г</li>
+											<li>Разрыхлитель пищевой, пекарный порошок (заменяющий дрожжи), с низким содерж. натрия: 3 г</li>
+											<li>Черника: 100 г</li>
+											<li>Сыр Рикотта [Pretto]: 200 г</li>
+											<li>Кокосовое масло (жидкое): 10 г</li>
+										</ul>
+										<ul class="nutritional-three">
+											<li>Белки: 5.9г</li>
+											<li>Жиры: 8.7г</li>
+											<li>Углеводы: 21.1г</li>
+											<li>Энерг. ценность: 190ккал.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="popup__price">
+								<button class="popup__btn">1000₽
+									<img src="img/basket_popup.svg" alt="">
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- cookies popup -->
+					<div class="cookies__background">
+						<div class="popup">
+							<div class="popup__wrapper">
+								<img src="img/card_img.png" alt="" class="popup__img">
+								<div class="popup__info">
+									<h1 class="popup__title">
+										"Печенье"
+										<br>
+										<span>1шт/1кг</span>
+									</h1>
+									<nav class="popup__nav">
+										<ul>
+											<li><a class="button__structure-four" href="#">Состав</a></li>
+											<li><a class="button__nutritional-four" href="#">Пищевая ценность</a></li>
+										</ul>
+									</nav>
+									<div class="popup__desctiption">
+										<ul class="structure-four active">
+											<li>Яйцо куриное: 60 г</li>
+											<li>Йогурт греческий 1,9% жирности, натуральный: 60 г</li>
+											<li>Мука из Зеленой Гречки [Гарнец]: 25 г</li>
+											<li>Какао-порошок: 8 г</li>
+											<li>Разрыхлитель пищевой, пекарный порошок (заменяющий дрожжи), с низким содерж. натрия: 3 г</li>
+											<li>Черника: 100 г</li>
+											<li>Сыр Рикотта [Pretto]: 200 г</li>
+											<li>Кокосовое масло (жидкое): 10 г</li>
+										</ul>
+										<ul class="nutritional-four">
+											<li>Белки: 5.9г</li>
+											<li>Жиры: 8.7г</li>
+											<li>Углеводы: 21.1г</li>
+											<li>Энерг. ценность: 190ккал.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="popup__price">
+								<button class="popup__btn">500₽
+									<img src="img/basket_popup.svg" alt="">
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- ********** -->
+					<!-- cake -->
+					<div class="menu__cards cake active">
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Бенто-торт"
+									</h3>
+									<span class="menu__price">
+										2000₽/1кг
+									</span>
+								</div>
+								<button class="menu__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- cupcake -->
+					<div class="menu__cards cupcake">
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Капкейк"
+									</h3>
+									<span class="menu__price">
+										1500₽/1кг
+									</span>
+								</div>
+								<button class="cupcake__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- eclairs -->
+					<div class="menu__cards eclairs">
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Эклер"
+									</h3>
+									<span class="menu__price">
+										1000₽/1кг
+									</span>
+								</div>
+								<button class="eclair__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- cookies -->
+					<div class="menu__cards cookies">
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+						<div class="menu__card">
+							<img src="img/card_img.png" alt="" class="menu__img">
+							<div class="menu__bottom">
+								<div class="menu__info">
+									<h3 class="menu__subtitle">
+										"Печенье"
+									</h3>
+									<span class="menu__price">
+										500₽/1кг
+									</span>
+								</div>
+								<button class="cookies__button">
+									Подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container flex-js-c" style="flex-direction: column;">
+				<div class="footer__messenger">
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/facebook.svg" alt="">
+					</a>
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/vk.svg" alt="">
+					</a>
+					<a href="https://vk.com/hydr0cephal" target="_blank" class="footer__link">
+						<img src="img/instagram.svg" alt="">
+					</a>
+				</div>
+				<nav class="footer__nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="menu.html">Меню</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="js/header.js"></script>
+	<script src="js/burger-menu.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/popup.js"></script>
+</body>
+</html>
